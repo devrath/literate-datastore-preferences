@@ -2,6 +2,17 @@
 ![Banner](https://github.com/devrath/literate-datastore-preferences/blob/main/assets/banner.jpeg)
 
 
+<p align="center">
+<a><img src="https://img.shields.io/badge/Hilt-Dependency%20Injection-green"></a>
+<a><img src="https://img.shields.io/badge/MVVM-Architecture-purple"></a>
+</p>
+<p align="center">
+<a><img src="https://img.shields.io/badge/Built%20Using-Kotlin-silver?style=for-the-badge&logo=kotlin"></a>
+<a><img src="https://img.shields.io/badge/Built%20By-Android%20Studio-red?style=for-the-badge&logo=android%20studio"></a>  
+<a><img src="https://img.shields.io/badge/persistence-Datastore%20preferences%20library-deeppink?style=for-the-badge&logo=Bitrise"></a>  
+</p>
+
+
 | Contents |
 | -------- |
 | [What is Data Store](https://github.com/devrath/literate-datastore/blob/main/README.md#what-is-data-store) |
