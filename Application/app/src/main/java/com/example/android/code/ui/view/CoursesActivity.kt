@@ -41,7 +41,7 @@ class CoursesActivity : AppCompatActivity() {
       adapter.setCourses(it)
     }
     viewModel.darkThemeEnabled.observe(this){ nightModeActive ->
-      this.nightModeActive = nightModeActive
+      this.nightModeActive = nightModeActive as Boolean
       toggleNightMode(nightModeActive)
     }
   }
