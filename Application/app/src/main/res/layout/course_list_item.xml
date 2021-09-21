@@ -12,7 +12,8 @@
 
   <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp">
 
     <TextView
       android:id="@+id/courseName"
@@ -30,51 +31,16 @@
       tools:text="Title" />
 
     <TextView
-      android:id="@+id/courseDescription"
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:layout_gravity="bottom"
-      android:layout_marginTop="8dp"
-      android:layout_marginBottom="20dp"
-      app:layout_constraintEnd_toEndOf="@id/courseName"
-      app:layout_constraintStart_toStartOf="@id/courseName"
-      app:layout_constraintTop_toBottomOf="@id/courseName"
-      tools:text="Description" />
-
-    <TextView
-      android:id="@+id/levelLabel"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="24dp"
-      android:layout_marginBottom="20dp"
-      android:text="@string/difficulty_level"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toStartOf="@id/courseCompleted"
-      app:layout_constraintHorizontal_bias="0"
-      app:layout_constraintStart_toStartOf="@id/courseName"
-      app:layout_constraintTop_toBottomOf="@id/courseDescription" />
-
-    <ImageView
-      android:id="@+id/levelIndicator"
-      android:layout_width="24dp"
-      android:layout_height="24dp"
-      android:layout_marginStart="12dp"
-      app:layout_constraintBottom_toBottomOf="@id/levelLabel"
-      app:layout_constraintStart_toEndOf="@id/levelLabel"
-      app:layout_constraintTop_toTopOf="@id/levelLabel"
-      tools:ignore="ContentDescription" />
-
-    <ImageView
-      android:id="@+id/courseCompleted"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_gravity="center|end"
-      android:layout_marginEnd="20dp"
-      android:src="@drawable/icn_checkmark_outlined"
-      app:layout_constraintBottom_toBottomOf="@id/levelLabel"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toTopOf="@id/levelLabel"
-      tools:ignore="ContentDescription" />
+        android:id="@+id/courseDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/courseName"
+        app:layout_constraintStart_toStartOf="@id/courseName"
+        app:layout_constraintTop_toBottomOf="@id/courseName"
+        tools:text="Description" />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 

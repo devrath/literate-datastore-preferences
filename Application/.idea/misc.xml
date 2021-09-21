@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/course_list_item.xml" value="0.215625" />
+        <entry key="app/src/main/res/layout/course_list_item.xml" value="0.375" />
         <entry key="app/src/main/res/menu/overflow_menu.xml" value="0.19010416666666666" />
       </map>
     </option>

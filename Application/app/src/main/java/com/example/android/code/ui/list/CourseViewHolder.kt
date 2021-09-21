@@ -3,11 +3,9 @@ package com.example.android.code.ui.list
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.R
 import com.example.android.code.data.model.Course
-import com.example.android.code.data.model.CourseLevel
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.course_list_item.view.*
 
@@ -18,16 +16,6 @@ class CourseViewHolder(
   fun bind(course: Course) = with(containerView) {
     courseName.text = course.name
     courseDescription.text = course.description
-    val completedResource = if (course.completed) {
-      ContextCompat.getDrawable(context, R.drawable.icn_checkmark_filled)
-    } else {
-      ContextCompat.getDrawable(context, R.drawable.icn_checkmark_outlined)
-    }
-    courseCompleted.setImageDrawable(completedResource)
-    when (course.level) {
-      CourseLevel.BEGINNER -> levelIndicator.setImageResource(R.drawable.shape_level_beginner)
-      CourseLevel.ADVANCED -> levelIndicator.setImageResource(R.drawable.shape_level_advanced)
-    }
   }
 
   companion object {
