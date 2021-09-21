@@ -38,3 +38,6 @@ The Preferences DataStore implementation uses the DataStore and Preferences clas
 * `Hilt` is used as a dependency injection tool to inject the datastore preferences to the view model 
 * We observe the changes in the activity  
 
+<p align="center">
+  <img width=300 height=600 src="https://github.com/devrath/literate-datastore-preferences/blob/main/assets/output.gif">
+</p>
