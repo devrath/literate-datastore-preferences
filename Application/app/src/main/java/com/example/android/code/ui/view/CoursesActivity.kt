@@ -27,7 +27,6 @@ class CoursesActivity : AppCompatActivity() {
 
     initCourseList()
     subscribeToData()
-    observeFilterChanges()
   }
 
   private fun initCourseList() {
@@ -55,31 +54,6 @@ class CoursesActivity : AppCompatActivity() {
     }
     AppCompatDelegate.setDefaultNightMode(defaultMode)
   }
-
-  private fun observeFilterChanges() {
-    viewModel.apply {
-      filterBeginner.setOnCheckedChangeListener { _, isChecked -> enableBeginnerFilter(isChecked) }
-      filterAdvanced.setOnCheckedChangeListener { _, isChecked -> enableAdvancedFilter(isChecked) }
-      filterCompleted.setOnCheckedChangeListener { _, isChecked -> enableCompletedFilter(isChecked) }
-    }
-  }
-
-//  private fun updateFilter(filter: FilterOption.Filter) {
-//    filterBeginner.isChecked = filter == FilterOption.Filter.BEGINNER ||
-//        filter == FilterOption.Filter.BEGINNER_ADVANCED ||
-//        filter == FilterOption.Filter.BEGINNER_COMPLETED ||
-//        filter == FilterOption.Filter.ALL
-//
-//    filterAdvanced.isChecked = filter == FilterOption.Filter.ADVANCED ||
-//        filter == FilterOption.Filter.ADVANCED_COMPLETED ||
-//        filter == FilterOption.Filter.BEGINNER_ADVANCED ||
-//        filter == FilterOption.Filter.ALL
-//
-//    filterCompleted.isChecked = filter == FilterOption.Filter.COMPLETED ||
-//        filter == FilterOption.Filter.BEGINNER_COMPLETED ||
-//        filter == FilterOption.Filter.ADVANCED_COMPLETED ||
-//        filter == FilterOption.Filter.ALL
-//  }
 
   override fun onCreateOptionsMenu(menu: Menu?): Boolean {
     menuInflater.inflate(R.menu.overflow_menu, menu)

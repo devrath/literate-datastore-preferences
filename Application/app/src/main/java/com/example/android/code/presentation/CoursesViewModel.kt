@@ -17,29 +17,9 @@ class CoursesViewModel @Inject constructor(
 
   val courses = getCourseList().asLiveData()
 
-  fun enableBeginnerFilter(enable: Boolean) {
-    viewModelScope.launch {
-      // Add a call to proto store to enable beginner filter
-    }
-  }
-
-  fun enableAdvancedFilter(enable: Boolean) {
-    viewModelScope.launch {
-      // Add a call to proto store to enable advanced filter
-    }
-  }
-
-  fun enableCompletedFilter(enable: Boolean) {
-    viewModelScope.launch {
-      // Add a call to proto store to enable completed filter
-    }
-  }
-
   fun toggleNightMode() {
     viewModelScope.launch {
       prefsStore.toogleNightMode()
     }
   }
 }
-
-//data class CourseUiModel(val courses: List<Course>, val filter: FilterOption.Filter)

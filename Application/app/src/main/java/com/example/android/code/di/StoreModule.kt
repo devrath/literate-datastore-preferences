@@ -11,9 +11,7 @@ import dagger.hilt.components.SingletonComponent
 @InstallIn(SingletonComponent::class)
 abstract class StoreModule {
 
-//  @Binds
-//  abstract fun bindProtoStore(protoStoreImpl: ProtoStoreImpl): ProtoStore
-
-  @Binds
+ @Binds
   abstract fun bindPrefsStore(prefsStoreImpl: PrefsStoreImpl): PrefsStore
+
 }
