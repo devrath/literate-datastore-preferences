@@ -3,20 +3,17 @@ package com.example.android.code.presentation
 import androidx.lifecycle.*
 import com.example.android.code.data.getCourseList
 import com.example.android.code.data.preferences.SharedPrefs
+import com.example.android.code.prefsstore.PrefsStore
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 class CoursesViewModel @Inject constructor(
-  private val sharedPrefs: SharedPrefs
+  private val prefsStore: PrefsStore
 ) : ViewModel() {
 
-  private val _darkThemeEnabled = MutableLiveData<Boolean>()
-  val darkThemeEnabled: LiveData<Boolean> = _darkThemeEnabled
-  init {
-      _darkThemeEnabled.value = sharedPrefs.isDarkThemeEnabled()
-  }
+  val darkThemeEnabled = prefsStore.isNightMode().asLiveData()
 
   val courses = getCourseList().asLiveData()
 
@@ -40,9 +37,7 @@ class CoursesViewModel @Inject constructor(
 
   fun toggleNightMode() {
     viewModelScope.launch {
-      val darkThemeEnabled = _darkThemeEnabled.value!!
-      sharedPrefs.setDarkThemeEnabled(!darkThemeEnabled)
-      _darkThemeEnabled.value = !darkThemeEnabled
+      prefsStore.toogleNightMode()
     }
   }
 }
