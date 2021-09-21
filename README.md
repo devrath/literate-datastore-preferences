@@ -3,11 +3,11 @@ This repository describes how to use data store in a mvvm based project
 
 | Contents |
 | -------- |
-| What is Data Store() |
-| Types of Data Store() |
-| Datastore Preferences() |
-| Comparison of Datastore preferences with shared preferences() |
-| About the project() |
+| What is Data Store(https://github.com/devrath/literate-datastore/blob/main/README.md#what-is-data-store) |
+| Types of Data Store(https://github.com/devrath/literate-datastore/blob/main/README.md#types-of-data-store) |
+| Datastore Preferences(https://github.com/devrath/literate-datastore/blob/main/README.md#datastore-preferences) |
+| Comparison of Datastore preferences with shared preferences(https://github.com/devrath/literate-datastore/blob/main/README.md#comparison-of-datastore-preferences-with-shared-preferences) |
+| About the project(https://github.com/devrath/literate-datastore/blob/main/README.md#about-the-project) |
 
 
 
