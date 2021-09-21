@@ -43,27 +43,24 @@ class CoursesActivity : AppCompatActivity() {
     }
     viewModel.darkThemeEnabled.observe(this){ nightModeActive ->
       this.nightModeActive = nightModeActive
-
-      val defaultMode = if (nightModeActive){
-        AppCompatDelegate.MODE_NIGHT_YES
-      }else{
-        AppCompatDelegate.MODE_NIGHT_NO
-      }
-      AppCompatDelegate.setDefaultNightMode(defaultMode)
+      toggleNightMode(nightModeActive)
     }
   }
 
+  private fun toggleNightMode(nightModeActive: Boolean) {
+    val defaultMode = if (nightModeActive) {
+      AppCompatDelegate.MODE_NIGHT_YES
+    } else {
+      AppCompatDelegate.MODE_NIGHT_NO
+    }
+    AppCompatDelegate.setDefaultNightMode(defaultMode)
+  }
+
   private fun observeFilterChanges() {
-    filterBeginner.setOnCheckedChangeListener { _, isChecked ->
-      viewModel.enableBeginnerFilter(isChecked)
-    }
-
-    filterAdvanced.setOnCheckedChangeListener { _, isChecked ->
-      viewModel.enableAdvancedFilter(isChecked)
-    }
-
-    filterCompleted.setOnCheckedChangeListener { _, isChecked ->
-      viewModel.enableCompletedFilter(isChecked)
+    viewModel.apply {
+      filterBeginner.setOnCheckedChangeListener { _, isChecked -> enableBeginnerFilter(isChecked) }
+      filterAdvanced.setOnCheckedChangeListener { _, isChecked -> enableAdvancedFilter(isChecked) }
+      filterCompleted.setOnCheckedChangeListener { _, isChecked -> enableCompletedFilter(isChecked) }
     }
   }
 
@@ -90,18 +87,18 @@ class CoursesActivity : AppCompatActivity() {
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
-    if (item.itemId == R.id.dayNightMode) {
-      viewModel.toggleNightMode()
+    viewModel.apply {
+      if (item.itemId == R.id.dayNightMode) { toggleNightMode() }
     }
     return true
   }
 
   override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
-    if (nightModeActive) {
-      menu?.findItem(R.id.dayNightMode)?.setIcon(R.drawable.icn_night_mode)
-    } else {
-      menu?.findItem(R.id.dayNightMode)?.setIcon(R.drawable.icn_light_mode)
+    menu?.apply {
+      if (nightModeActive) { findItem(R.id.dayNightMode)?.setIcon(R.drawable.icn_night_mode) }
+      else { findItem(R.id.dayNightMode)?.setIcon(R.drawable.icn_light_mode) }
     }
+
     return true
   }
 }
