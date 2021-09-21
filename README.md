@@ -1,5 +1,4 @@
 # Literate-datastore-preferences
-This repository describes how to use data store in a mvvm based project
 ![Banner](https://github.com/devrath/literate-datastore-preferences/blob/main/assets/banner.jpeg)
 
 
