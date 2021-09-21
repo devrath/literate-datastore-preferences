@@ -1,4 +1,4 @@
-# literate-datastore
+# Literate-datastore-preferences
 This repository describes how to use data store in a mvvm based project
 
 | Contents |
