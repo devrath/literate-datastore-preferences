@@ -42,9 +42,16 @@
 The Preferences DataStore implementation uses the DataStore and Preferences classes to persist simple key-value pairs to disk.
 
 ## `𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚏 𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚠𝚒𝚝𝚑 𝚜𝚑𝚊𝚛𝚎𝚍 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜`
-<p align="left">
-<a><img width=400 height=400 src="https://github.com/devrath/literate-datastore/blob/main/assets/data_store_shared_prefs.png"></a>
-</p>
+
+| Feature                 | Shared Preferences                          | DataStore                                             |
+|-------------------------|---------------------------------------------|-------------------------------------------------------|
+| **Type Safety**         | Not type-safe; values are treated as strings | Type-safe; supports Kotlin data classes for modeling  |
+| **Asynchronous Ops**    | Synchronous by default                      | Supports asynchronous operations with coroutines      |
+| **Observable Data**     | No built-in support for observing changes    | Built-in support for observing data changes using Flow or LiveData |
+| **Backward Compatibility** | Available since API level 1               | Modern alternative introduced in Jetpack              |
+| **Security**            | Values stored as plain text XML files        | More secure storage with default encryption of data    |
+| **Migrating Data**      | May require additional logic for migration  | Built-in support for data migration between versions  |
+
 
 ## `𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝`
 * 𝙷𝚎𝚛𝚎 𝚠𝚎 𝚞𝚜𝚎 `𝚍𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜` 𝚝𝚘 𝚜𝚝𝚘𝚛𝚎 𝚊 𝚋𝚘𝚘𝚕𝚎𝚊𝚗 𝚟𝚊𝚕𝚞𝚎 𝚒𝚗 𝚝𝚑𝚎 𝚙𝚎𝚛𝚜𝚒𝚜𝚝𝚎𝚗𝚌𝚎 𝚕𝚘𝚌𝚊𝚕𝚕𝚢 𝚊𝚗𝚍 𝚛𝚎𝚝𝚛𝚒𝚎𝚟𝚎 𝚒𝚝
