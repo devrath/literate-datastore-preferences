@@ -15,11 +15,11 @@
   
 | Contents |
 | -------- |
-| [𝚆𝚑𝚊𝚝 𝚒𝚜 𝚊 𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://github.com/devrath/literate-datastore/blob/main/README.md#what-is-data-store) |
-| [𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://github.com/devrath/literate-datastore/blob/main/README.md#types-of-data-store) |
-| [𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝙿𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://github.com/devrath/literate-datastore/blob/main/README.md#datastore-preferences) |
-| [𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚏 𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚠𝚒𝚝𝚑 𝚜𝚑𝚊𝚛𝚎𝚍 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://github.com/devrath/literate-datastore/blob/main/README.md#comparison-of-datastore-preferences-with-shared-preferences) |
-| [𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝](https://github.com/devrath/literate-datastore/blob/main/README.md#about-the-project) |
+| [𝚆𝚑𝚊𝚝 𝚒𝚜 𝚊 𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://github.com/devrath/literate-datastore-preferences/blob/main/README.md#%F0%9D%9A%86%F0%9D%9A%91%F0%9D%9A%8A%F0%9D%9A%9D-%F0%9D%9A%92%F0%9D%9A%9C-%F0%9D%99%B3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%8A-%F0%9D%9A%82%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8E) |
+| [𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://github.com/devrath/literate-datastore-preferences/blob/main/README.md#%F0%9D%9A%83%F0%9D%9A%A2%F0%9D%9A%99%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%99%B3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%8A-%F0%9D%9A%82%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8E) |
+| [𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝙿𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://github.com/devrath/literate-datastore-preferences/blob/main/README.md#%F0%9D%99%B3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8E-%F0%9D%99%BF%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%8E%F0%9D%9A%9C) |
+| [𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚏 𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚠𝚒𝚝𝚑 𝚜𝚑𝚊𝚛𝚎𝚍 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://github.com/devrath/literate-datastore-preferences/blob/main/README.md#%F0%9D%99%B2%F0%9D%9A%98%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%92%F0%9D%9A%9C%F0%9D%9A%98%F0%9D%9A%97-%F0%9D%9A%98%F0%9D%9A%8F-%F0%9D%99%B3%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%8A%F0%9D%9A%9C%F0%9D%9A%9D%F0%9D%9A%98%F0%9D%9A%9B%F0%9D%9A%8E-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%8E%F0%9D%9A%9C-%F0%9D%9A%A0%F0%9D%9A%92%F0%9D%9A%9D%F0%9D%9A%91-%F0%9D%9A%9C%F0%9D%9A%91%F0%9D%9A%8A%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8D-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%8C%F0%9D%9A%8E%F0%9D%9A%9C) |
+| [𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝](https://github.com/devrath/literate-datastore-preferences/blob/main/README.md#%F0%9D%99%B0%F0%9D%9A%8B%F0%9D%9A%98%F0%9D%9A%9E%F0%9D%9A%9D-%F0%9D%9A%9D%F0%9D%9A%91%F0%9D%9A%8E-%F0%9D%9A%99%F0%9D%9A%9B%F0%9D%9A%98%F0%9D%9A%93%F0%9D%9A%8E%F0%9D%9A%8C%F0%9D%9A%9D) |
 
 </div>
 
@@ -51,7 +51,7 @@ The Preferences DataStore implementation uses the DataStore and Preferences clas
 * `𝙷𝚒𝚕𝚝` 𝚒𝚜 𝚞𝚜𝚎𝚍 𝚊𝚜 𝚊 𝚍𝚎𝚙𝚎𝚗𝚍𝚎𝚗𝚌𝚢 𝚒𝚗𝚓𝚎𝚌𝚝𝚒𝚘𝚗 𝚝𝚘𝚘𝚕 𝚝𝚘 𝚒𝚗𝚓𝚎𝚌𝚝 𝚝𝚑𝚎 𝚍𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚝𝚘 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚖𝚘𝚍𝚎𝚕 
 * 𝚆𝚎 𝚘𝚋𝚜𝚎𝚛𝚟𝚎 𝚝𝚑𝚎 𝚌𝚑𝚊𝚗𝚐𝚎𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚊𝚌𝚝𝚒𝚟𝚒𝚝𝚢
 
-<p align="left">
+<p align="center">
   <img width=300 height=600 src="https://github.com/devrath/literate-datastore-preferences/blob/main/assets/output.gif">
 </p>
 
