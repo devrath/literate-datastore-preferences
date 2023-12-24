@@ -1,4 +1,4 @@
-package com.example.android.code.prefsstore
+package com.example.android.code.data.prefsStore
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -13,7 +13,7 @@ import javax.inject.Inject
 private const val STORE_NAME = "learning_data_store"
 
 class PrefsStoreImpl  @Inject constructor(
-    @ApplicationContext val context: Context): PrefsStore{
+    @ApplicationContext val context: Context): PrefsStore {
 
     private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = STORE_NAME)
 

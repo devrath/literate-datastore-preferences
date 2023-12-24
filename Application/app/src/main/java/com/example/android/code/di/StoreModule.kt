@@ -1,7 +1,7 @@
 package com.example.android.code.di
 
-import com.example.android.code.prefsstore.PrefsStore
-import com.example.android.code.prefsstore.PrefsStoreImpl
+import com.example.android.code.data.prefsStore.PrefsStore
+import com.example.android.code.data.prefsStore.PrefsStoreImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
