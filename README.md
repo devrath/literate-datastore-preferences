@@ -25,7 +25,7 @@
 
 
 ### What is [Data Store](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#kts)
-* 𝙸𝚝 𝚒𝚜 𝚙𝚊𝚛𝚝 𝚘𝚏 𝚊𝚗𝚍𝚛𝚘𝚒𝚍[𝚓𝚎𝚝𝚙𝚊𝚌𝚔](https://developer.android.com/jetpack)
+* 𝙸𝚝 𝚒𝚜 𝚙𝚊𝚛𝚝 𝚘𝚏 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 [𝚓𝚎𝚝𝚙𝚊𝚌𝚔](https://developer.android.com/jetpack)
 * 𝙸𝚝 𝚒𝚜 𝚊 𝚍𝚊𝚝𝚊 𝚜𝚝𝚘𝚛𝚊𝚐𝚎 𝚜𝚘𝚕𝚞𝚝𝚒𝚘𝚗 𝚝𝚑𝚊𝚝 𝚊𝚕𝚕𝚘𝚠𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚜𝚝𝚘𝚛𝚎 `𝚔𝚎𝚢-𝚟𝚊𝚕𝚞𝚎` 𝚙𝚊𝚒𝚛𝚜
 * 𝙸𝚝 𝚞𝚜𝚎𝚜 `𝙺𝚘𝚝𝚕𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜` 𝚊𝚗𝚍 `𝙵𝚕𝚘𝚠`
 * 𝙸𝚝 𝚒𝚜 𝚞𝚜𝚎𝚍 𝚝𝚘 𝚜𝚝𝚘𝚛𝚎 𝚍𝚊𝚝𝚊 `𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜𝚕𝚢`, `𝚌𝚘𝚗𝚜𝚒𝚜𝚝𝚎𝚗𝚝𝚕𝚢`, 𝚊𝚗𝚍 `𝚝𝚛𝚊𝚗𝚜𝚊𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚕𝚢`
