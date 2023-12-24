@@ -1,26 +1,27 @@
-# Literate-datastore-preferences
+<h1 align="center">𝙻𝚒𝚝𝚎𝚛𝚊𝚝𝚎-𝚍𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎-𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜</h1>
+
 ![Banner](https://github.com/devrath/literate-datastore-preferences/blob/main/assets/banner.jpeg)
 
-
-<p align="center">
-<a><img src="https://img.shields.io/badge/Hilt-Dependency%20Injection-green"></a>
-<a><img src="https://img.shields.io/badge/MVVM-Architecture-purple"></a>
-</p>
 <p align="center">
 <a><img src="https://img.shields.io/badge/Built%20Using-Kotlin-silver?style=for-the-badge&logo=kotlin"></a>
 <a><img src="https://img.shields.io/badge/Built%20By-Android%20Studio-red?style=for-the-badge&logo=android%20studio"></a>  
 <a><img src="https://img.shields.io/badge/persistence-Datastore%20preferences%20library-deeppink?style=for-the-badge&logo=Bitrise"></a>  
+<a><img src="https://img.shields.io/badge/Hilt-Dependency%20Injection-orange?style=for-the-badge&logo=Microsoft"></a>  
+<a><img src="https://img.shields.io/badge/MVVM-Architecture-yellow?style=for-the-badge&logo=Adobe"></a>  
+
 </p>
 
-
+<div align="center">
+  
 | Contents |
 | -------- |
-| [What is Data Store](https://github.com/devrath/literate-datastore/blob/main/README.md#what-is-data-store) |
-| [Types of Data Store](https://github.com/devrath/literate-datastore/blob/main/README.md#types-of-data-store) |
-| [Datastore Preferences](https://github.com/devrath/literate-datastore/blob/main/README.md#datastore-preferences) |
-| [Comparison of Datastore preferences with shared preferences](https://github.com/devrath/literate-datastore/blob/main/README.md#comparison-of-datastore-preferences-with-shared-preferences) |
-| [About the project](https://github.com/devrath/literate-datastore/blob/main/README.md#about-the-project) |
+| [𝚆𝚑𝚊𝚝 𝚒𝚜 𝚊 𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://github.com/devrath/literate-datastore/blob/main/README.md#what-is-data-store) |
+| [𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://github.com/devrath/literate-datastore/blob/main/README.md#types-of-data-store) |
+| [𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝙿𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://github.com/devrath/literate-datastore/blob/main/README.md#datastore-preferences) |
+| [𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚏 𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚠𝚒𝚝𝚑 𝚜𝚑𝚊𝚛𝚎𝚍 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://github.com/devrath/literate-datastore/blob/main/README.md#comparison-of-datastore-preferences-with-shared-preferences) |
+| [𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝](https://github.com/devrath/literate-datastore/blob/main/README.md#about-the-project) |
 
+</div>
 
 
 ### What is [Data Store](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#kts)
