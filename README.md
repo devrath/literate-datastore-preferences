@@ -1,6 +1,10 @@
 <h1 align="center">𝙻𝚒𝚝𝚎𝚛𝚊𝚝𝚎-𝚍𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎-𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜</h1>
 
-![Banner](https://github.com/devrath/literate-datastore-preferences/blob/main/assets/banner.jpeg)
+<div align="center">
+  
+![Datastore_Preferences](https://github.com/devrath/literate-datastore-preferences/assets/1456191/4f3a2352-e5d6-4843-a102-b1da94bb7157)
+
+</div>
 
 <p align="center">
 <a><img src="https://img.shields.io/badge/Built%20Using-Kotlin-silver?style=for-the-badge&logo=kotlin"></a>
