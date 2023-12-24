@@ -24,27 +24,27 @@
 </div>
 
 
-### What is [Data Store](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#kts)
+### 𝚆𝚑𝚊𝚝 𝚒𝚜 [𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#kts)
 * 𝙸𝚝 𝚒𝚜 𝚙𝚊𝚛𝚝 𝚘𝚏 𝚊𝚗𝚍𝚛𝚘𝚒𝚍 [𝚓𝚎𝚝𝚙𝚊𝚌𝚔](https://developer.android.com/jetpack)
 * 𝙸𝚝 𝚒𝚜 𝚊 𝚍𝚊𝚝𝚊 𝚜𝚝𝚘𝚛𝚊𝚐𝚎 𝚜𝚘𝚕𝚞𝚝𝚒𝚘𝚗 𝚝𝚑𝚊𝚝 𝚊𝚕𝚕𝚘𝚠𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚜𝚝𝚘𝚛𝚎 `𝚔𝚎𝚢-𝚟𝚊𝚕𝚞𝚎` 𝚙𝚊𝚒𝚛𝚜
 * 𝙸𝚝 𝚞𝚜𝚎𝚜 `𝙺𝚘𝚝𝚕𝚒𝚗 𝚌𝚘𝚛𝚘𝚞𝚝𝚒𝚗𝚎𝚜` 𝚊𝚗𝚍 `𝙵𝚕𝚘𝚠`
 * 𝙸𝚝 𝚒𝚜 𝚞𝚜𝚎𝚍 𝚝𝚘 𝚜𝚝𝚘𝚛𝚎 𝚍𝚊𝚝𝚊 `𝚊𝚜𝚢𝚗𝚌𝚑𝚛𝚘𝚗𝚘𝚞𝚜𝚕𝚢`, `𝚌𝚘𝚗𝚜𝚒𝚜𝚝𝚎𝚗𝚝𝚕𝚢`, 𝚊𝚗𝚍 `𝚝𝚛𝚊𝚗𝚜𝚊𝚌𝚝𝚒𝚘𝚗𝚊𝚕𝚕𝚢`
 
-### Types of [Data Store](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#kts)
+### 𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 [𝙳𝚊𝚝𝚊 𝚂𝚝𝚘𝚛𝚎](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#kts)
 
 <p align="center">
 <a><img src="https://github.com/devrath/literate-datastore/blob/main/assets/types.png"></a>
 </p>
 
-### [Datastore Preferences](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#preferences-datastore)
+### [𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝙿𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜](https://developer.android.com/topic/libraries/architecture/datastore?gclid=CjwKCAjwhaaKBhBcEiwA8acsHFr6Svpzv9_bUiFBjH89XbKaXBST8QvfZu3zh_LAtlfv28jp195jHhoCi5QQAvD_BwE&gclsrc=aw.ds#preferences-datastore)
 The Preferences DataStore implementation uses the DataStore and Preferences classes to persist simple key-value pairs to disk.
 
-### Comparison of Datastore preferences with shared preferences
+### 𝙲𝚘𝚖𝚙𝚊𝚛𝚒𝚜𝚘𝚗 𝚘𝚏 𝙳𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜 𝚠𝚒𝚝𝚑 𝚜𝚑𝚊𝚛𝚎𝚍 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜
 <p align="left">
 <a><img width=400 height=400 src="https://github.com/devrath/literate-datastore/blob/main/assets/data_store_shared_prefs.png"></a>
 </p>
 
-### About the project
+### 𝙰𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝
 * 𝙷𝚎𝚛𝚎 𝚠𝚎 𝚞𝚜𝚎 `𝚍𝚊𝚝𝚊𝚜𝚝𝚘𝚛𝚎 𝚙𝚛𝚎𝚏𝚎𝚛𝚎𝚗𝚌𝚎𝚜` 𝚝𝚘 𝚜𝚝𝚘𝚛𝚎 𝚊 𝚋𝚘𝚘𝚕𝚎𝚊𝚗 𝚟𝚊𝚕𝚞𝚎 𝚒𝚗 𝚝𝚑𝚎 𝚙𝚎𝚛𝚜𝚒𝚜𝚝𝚎𝚗𝚌𝚎 𝚕𝚘𝚌𝚊𝚕𝚕𝚢 𝚊𝚗𝚍 𝚛𝚎𝚝𝚛𝚒𝚎𝚟𝚎 𝚒𝚝
 * 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝚑𝚊𝚜 𝚊 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚒𝚝𝚎𝚖𝚜 𝚍𝚒𝚜𝚙𝚕𝚊𝚢𝚎𝚍 𝚒𝚗 𝚊 `𝚛𝚎𝚌𝚢𝚌𝚕𝚎𝚛 𝚟𝚒𝚎𝚠`
 * `𝙼𝚅𝚅𝙼` 𝚊𝚛𝚌𝚑𝚒𝚝𝚎𝚌𝚝𝚞𝚛𝚎 𝚒𝚜 𝚞𝚜𝚎𝚍 𝚏𝚘𝚛 𝚝𝚑𝚎 𝚒𝚖𝚙𝚕𝚎𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 
